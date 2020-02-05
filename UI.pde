@@ -110,7 +110,7 @@ public void keyPressed() {
 int dato=0;
 void drawUI()
 {
-    byte[] data = {49};
+    byte[] data = {48,49};
     bt.write("30:AE:A4:97:67:6A",data);
     instances[0].run();
     G1.update();
